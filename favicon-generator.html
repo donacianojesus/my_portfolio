@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD Favicon Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f0f0f0;
+        }
+        .favicon-preview {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .icon {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+        .icon-16 {
+            width: 16px;
+            height: 16px;
+            background: #000;
+            color: white;
+            font-size: 10px;
+            line-height: 16px;
+            font-weight: bold;
+        }
+        .icon-32 {
+            width: 32px;
+            height: 32px;
+            background: #000;
+            color: white;
+            font-size: 18px;
+            line-height: 32px;
+            font-weight: bold;
+        }
+        .icon-192 {
+            width: 192px;
+            height: 192px;
+            background: #000;
+            color: white;
+            font-size: 80px;
+            line-height: 192px;
+            font-weight: bold;
+        }
+        .icon-256 {
+            width: 256px;
+            height: 256px;
+            background: #000;
+            color: white;
+            font-size: 100px;
+            line-height: 256px;
+            font-weight: bold;
+        }
+        .instructions {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>JD Favicon Generator</h1>
+    
+    <div class="instructions">
+        <h3>Instructions:</h3>
+        <p>1. Take screenshots of each icon size below</p>
+        <p>2. Use an online favicon generator like <a href="https://realfavicongenerator.net/" target="_blank">RealFaviconGenerator</a></p>
+        <p>3. Or use an image editor to create square images with "JD" text</p>
+        <p>4. Replace the files in your /public directory</p>
+    </div>
+
+    <div class="favicon-preview">
+        <h3>Favicon Sizes Needed:</h3>
+        
+        <div class="icon">
+            <div class="icon-16">JD</div>
+            <p>16x16px<br>favicon-16x16.png</p>
+        </div>
+        
+        <div class="icon">
+            <div class="icon-32">JD</div>
+            <p>32x32px<br>favicon-32x32.png</p>
+        </div>
+        
+        <div class="icon">
+            <div class="icon-192">JD</div>
+            <p>192x192px<br>android-chrome-192x192.png</p>
+        </div>
+        
+        <div class="icon">
+            <div class="icon-256">JD</div>
+            <p>256x256px<br>android-chrome-256x256.png</p>
+        </div>
+    </div>
+
+    <div class="instructions">
+        <h3>Files to Replace:</h3>
+        <ul>
+            <li>favicon.ico (16x16, 32x32 combined)</li>
+            <li>favicon-16x16.png</li>
+            <li>favicon-32x32.png</li>
+            <li>apple-touch-icon.png (180x180)</li>
+            <li>android-chrome-192x192.png</li>
+            <li>android-chrome-256x256.png</li>
+            <li>mstile-150x150.png (150x150)</li>
+        </ul>
+    </div>
+</body>
+</html>
